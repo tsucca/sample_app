@@ -1,1 +1,4 @@
-
+one:
+  name : "Yasukawa"
+  email: "yasubal@gamil.com"
+  password_digest: <%= User.digest( 'password') %>
