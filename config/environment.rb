@@ -5,4 +5,4 @@ require_relative 'application'
 Rails.application.initialize!
 
 # NameError: uninitialized constant Micropost::PictureUploader エラー対処
-#require 'carrierwave/orm/activerecord'
+require 'carrierwave/orm/activerecord'
